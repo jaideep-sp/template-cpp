@@ -105,6 +105,15 @@ template <typename T> inline T readInt()
 	return n*s;
 }
 
+
+/*
+
+//--\\ to round off int value
+// round int intValue = static_cast<int>(dblValue < 0 ? dblValue - 0.5 : dblValue + 0.5);
+
+*/
+
+
 */
 
 //--\\to find max element in vector arr
