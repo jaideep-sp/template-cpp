@@ -198,6 +198,25 @@ zr=0.166667
 */
 
 
+/*
+//--\\ to replace a character in string by a given charater by particular charater using sstream.
+#include <sstream>
+using namespace std;
+string defangIPaddr(string address) 
+{
+    std::stringstream ss;
+    for(int i=0;i<address.length();i++){
+        if(address[i]=='.'){
+            ss<<"[.]";//replacing . with [.]
+        }else{
+            ss<<address[i];
+        }
+    }
+    return ss.str();
+}
+
+*/
+
 
 int main()
 {
